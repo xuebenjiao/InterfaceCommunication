@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/text_input_layout_id"
+    android:layout_height="match_parent"
+    tools:context="com.example.binddemo.designsupport.TextInputLayoutActivity"
+    android:orientation="vertical">
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:background="#1FBCD2"
+        android:layout_height="48dp" />
+    <android.support.design.widget.TextInputLayout
+        android:orientation="vertical"
+        android:id="@+id/text_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_float_action"
+        android:layout_width="48dp"
+        android:layout_gravity="right"
+        android:layout_height="48dp"
+        android:orientation="vertical" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/veiwpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

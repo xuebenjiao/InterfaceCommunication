@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment" />
+    <Button
+        android:id="@+id/no_all_btn"
+        android:layout_width="match_parent"
+        android:text="与Activity进行通信，无参无返回值"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/with_param_only_btn"
+        android:layout_width="match_parent"
+        android:text="与Activity进行通信，有参无返回值"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:id="@+id/with_result_only_btn"
+        android:layout_width="match_parent"
+        android:text="与Activity进行通信，无参有返回值"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:id="@+id/with_all_btn"
+        android:layout_width="match_parent"
+        android:text="与Activity进行通信，有参有返回值"
+        android:layout_height="wrap_content">
+    </Button>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img"/>
+
+
+</LinearLayout>
